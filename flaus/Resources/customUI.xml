@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with IDBE Ribbon Creator (Version: 1.1027) -->
+<!--            http://www.RibbonCreator.com            -->
+<!--             http://www.RibbonCreator.de            -->
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnRibbonLoad" loadImage="LoadImages">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="Flaus" label="FLAUS">
+        <group id="grpGantt" label="Modell">
+          <button label="Aktualisiere Modell" id="btnUpdateModel" getEnabled="GetEnabled_flaus" getVisible="GetVisible_flaus" onAction="OnActionButton_flaus" tag="RibbonName:=;inMenu:=;CustomPicture:=;CustomPicturePath:=" imageMso="PwaProjectProgressUpdate" size="large" getDescription="getDescription_flaus" getScreentip="getScreentip_flaus" getSupertip="getSupertip_flaus" />
+          <button label="Anwenden Projektfarben" id="btnApplyProjectColors" getEnabled="GetEnabled_flaus" getVisible="GetVisible_flaus" onAction="OnActionButton_flaus" tag="RibbonName:=;inMenu:=;CustomPicture:=;CustomPicturePath:=" imageMso="SchemeColorsGallery" size="large" getDescription="getDescription_flaus" getScreentip="getScreentip_flaus" getSupertip="getSupertip_flaus" />
+        </group>
+        <group id="grpManAlloc" label="Projekt bearbeiten">
+          <dropDown id="dDProject" label="Projekt" getEnabled="GetEnabled_flaus" getVisible="GetVisible_flaus" getItemCount="GetItemCount_flaus" getItemID="GetItemID_flaus" getItemLabel="GetItemLabel_flaus" getSelectedItemID="GetSelectedItemID_flaus" getItemScreentip="GetItemScreenTip_flaus" getItemSupertip="GetItemSuperTip_flaus" onAction="OnActionDropDown_flaus" getScreentip="getScreentip_flaus" getSupertip="getSupertip_flaus" />
+          <labelControl id="lbfloor" getEnabled="GetEnabled_flaus" getLabel="GetLabel_flaus" />
+          <labelControl id="lbweekStart2End" getEnabled="GetEnabled_flaus" getLabel="GetLabel_flaus" />
+          <button label="Lege PVB für Zeitraum fest" id="btnbaseAllocation" getEnabled="GetEnabled_flaus" getVisible="GetVisible_flaus" onAction="OnActionButton_flaus" tag="RibbonName:=;inMenu:=;CustomPicture:=;CustomPicturePath:=" imageMso="CreateWorkflowDiagram" size="normal" getDescription="getDescription_flaus" getScreentip="getScreentip_flaus" getSupertip="getSupertip_flaus" />
+          <button label="Erstelle PVB Ausnahme" id="btnSelfAllocation" getEnabled="GetEnabled_flaus" getVisible="GetVisible_flaus" onAction="OnActionButton_flaus" tag="RibbonName:=;inMenu:=;CustomPicture:=;CustomPicturePath:=" imageMso="CreateWorkflowDiagram" size="normal" getDescription="getDescription_flaus" getScreentip="getScreentip_flaus" getSupertip="getSupertip_flaus" />
+          <button label="Lösche markierte PVB Ausnahme" id="btnDeleteSelfAllocation" getEnabled="GetEnabled_flaus" getVisible="GetVisible_flaus" onAction="OnActionButton_flaus" tag="RibbonName:=;inMenu:=;CustomPicture:=;CustomPicturePath:=" imageMso="ShapeSheetDeleteSection" size="normal" getDescription="getDescription_flaus" getScreentip="getScreentip_flaus" getSupertip="getSupertip_flaus"></button>
+          <button label="Lösche alle PVB Ausnahmen" id="btnDeleteAllSelfAllocation" getEnabled="GetEnabled_flaus" getVisible="GetVisible_flaus" onAction="OnActionButton_flaus" tag="RibbonName:=;inMenu:=;CustomPicture:=;CustomPicturePath:=" imageMso="RecordsDeleteRecord" size="normal" getDescription="getDescription_flaus" getScreentip="getScreentip_flaus" getSupertip="getSupertip_flaus"></button>
+        </group>
+        <group idMso="GroupSortFilter" getVisible="GetVisible_flaus" />
+        <group idMso="GroupCalculation" getVisible="GetVisible_flaus" />
+        <group id="grpLOG" label="Hilfe und Auswertung">
+          <button label="Erstelle Log Tabellen" id="btnClearLog" getEnabled="GetEnabled_flaus" getVisible="GetVisible_flaus" onAction="OnActionButton_flaus" tag="RibbonName:=;inMenu:=;CustomPicture:=;CustomPicturePath:=" imageMso="ShapeReports" size="normal" getDescription="getDescription_flaus" getScreentip="getScreentip_flaus" getSupertip="getSupertip_flaus" />
+          <!-- button id="btnInsertGUI" size="large" label="Insert GUID" imageMso="FileVersionHistory" /-->
+          <button label="Hilfe" id="btnShowDoc" getEnabled="GetEnabled_flaus" getVisible="GetVisible_flaus" onAction="OnActionButton_flaus" tag="RibbonName:=;inMenu:=;CustomPicture:=;CustomPicturePath:=" imageMso="HelpDevResources" size="normal" getDescription="getDescription_flaus" getScreentip="getScreentip_flaus" getSupertip="getSupertip_flaus"></button>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
