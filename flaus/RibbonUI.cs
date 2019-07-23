@@ -266,7 +266,7 @@ namespace peteli.flaus
             switch (control.Id)
             {
                 case "btnFormatHeaderFooter000":
-                    CTPManager.ShowCTP();
+                    //CTPManager.ShowCTP();
                     break;
                 case "btnGUID":
                     // do something

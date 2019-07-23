@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="peteli.flaus.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ListObjectNameProjects" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tbl_projects</Value>
+    </Setting>
+    <Setting Name="ListObjectNameFloorGridSizes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tbl_FlaecheRasterMatrix</Value>
+    </Setting>
+    <Setting Name="ListObjectNameExceptedAllocations" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tbl_manPVB</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
